@@ -71,6 +71,16 @@ h6{
     padding: 5px;
 } 
 
+.ultimafoto{
+  top: 300px;
+  left: 0;
+
+}
+.fa-solid:hover{
+ color: red;
+ transition: ease 1s;
+}
+
 
 
 /*#endregion /main*/
