@@ -10,10 +10,20 @@ box-sizing: border-box;
 /** fine debug**/
  
 /*#region header*/
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 header{
  background-color: #ff6900;
  padding: 15px;
  border-bottom: 1px solid #9e9e9e;
+ position: fixed;
+ left: 0;
+ top: 0;
+ right: 0;
+ z-index: 9999;
+ 
 
 }
 .top-header{
@@ -61,6 +71,8 @@ header{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .card{
     width: calc(100% / 3 - 20px);
@@ -75,7 +87,6 @@ header{
 }
 
 h6{
-    display: inline-block;
     vertical-align: top;
 }
 
