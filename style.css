@@ -8,7 +8,51 @@ box-sizing: border-box;
 /**debug**/
 
 /** fine debug**/
+ 
+/**#region header**/
+header{
+ background-color: #ff6900;
+ padding: 15px;
+ border-bottom: 1px solid #9e9e9e;
 
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 100px;
+}
+ .link{
+    display: inline-block;
+    color: white;
+ }
+
+ .bambini,.uomo,.donna{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+ }
+.fontawesome{
+     display: inline-block;
+     font-size: 20px;
+}
+
+.click{
+    color: white;
+    font-size: 15px;
+}
+
+/**hover**/
+
+.click:hover{
+    color: red;
+    transition: ease 1s;
+}
+/**#endregion**/
 
 
 /* #region main*/
@@ -63,7 +107,7 @@ h6{
     padding: 2px;
 }
 
-.fa-solid{
+.fa-solid.fa-heart{
     position: absolute;
     top: 5px;
     left: 210px;
