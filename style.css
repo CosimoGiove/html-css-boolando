@@ -5,9 +5,34 @@ padding: 0;
 box-sizing: border-box;
 }
 
-/* #region header*/
+/**debug**/
+.debug .card{
+    height: 300px;
+    background-color: #e8e8e6;
+}
 
 
-/*#endregion*/
+/** fine debug**/
+
+
+
+/* #region main*/
+.contenitoresupremo{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+.card{
+    width: calc(100% /3 - 40px);
+    border: 1px solid black;
+    margin: 20px;
+    margin-top: 90px;
+}
+
+
+
+
+/*#endregion /main*/
 
 
