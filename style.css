@@ -9,7 +9,7 @@ box-sizing: border-box;
 
 /** fine debug**/
  
-/**#region header**/
+/*#region header*/
 header{
  background-color: #ff6900;
  padding: 15px;
@@ -52,7 +52,7 @@ header{
     color: red;
     transition: ease 1s;
 }
-/**#endregion**/
+/*#endregion*/
 
 
 /* #region main*/
@@ -141,5 +141,33 @@ h6{
 
 /*#endregion /main*/
 
+/*#region*/
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: black;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+}
 
+.footerbottom h3{
+    margin-top: 20px;
+}
+
+.piedipagina{
+    font-size: 11px;
+}
+
+.footerbottom ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+/*#endregion*/
 
