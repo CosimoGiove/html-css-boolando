@@ -6,33 +6,45 @@ box-sizing: border-box;
 }
 
 /**debug**/
-.debug .card{
-    height: 300px;
-    background-color: #e8e8e6;
-}
-
 
 /** fine debug**/
 
 
 
 /* #region main*/
-.contenitoresupremo{
-    width: 50%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-
-.card{
-    width: calc(100% /3 - 40px);
-    border: 1px solid black;
-    margin: 20px;
-    margin-top: 90px;
-}
 
 
 
 
 /*#endregion /main*/
+
+.contenitoresupremo{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: calc(100% / 3 - 20px);
+    margin-top: 50px;
+    margin-right: 20px;
+    position: relative;
+    }
+.immagine{
+    width: 100%;
+    display: block;
+
+}
+
+h6{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sconto{
+    position: absolute;
+    top: 300px;
+}
+
 
 
