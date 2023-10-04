@@ -12,12 +12,6 @@ box-sizing: border-box;
 
 
 /* #region main*/
-
-
-
-
-/*#endregion /main*/
-
 .contenitoresupremo{
     width: 50%;
     margin: auto;
@@ -44,7 +38,42 @@ h6{
 .sconto{
     position: absolute;
     top: 300px;
+    background-color: red;
+    font-size: 10px;
+    padding: 2px;
+    color: white;
 }
+
+.prezzo{
+    color: red;
+    font-weight: lighter;
+}
+.listino{
+    text-decoration: line-through;
+}
+
+.sostenibilità{
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    font-size: 10px;
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+
+.fa-solid{
+    position: absolute;
+    top: 5px;
+    left: 210px;
+    background-color: white;
+    padding: 5px;
+}
+
+
+
+/*#endregion /main*/
 
 
 
