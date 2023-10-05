@@ -83,9 +83,10 @@ header{
 .immagine{
     width: 100%;
     display: block;
-
 }
-
+.position{
+    position: relative;
+}
 h6{
     vertical-align: top;
     display: inline;
@@ -93,7 +94,8 @@ h6{
 
 .sconto{
     position: absolute;
-    top: 300px;
+    bottom:10px ;
+    left:0;
     background-color: red;
     font-size: 10px;
     padding: 2px;
@@ -111,7 +113,7 @@ h6{
 .sostenibilità{
     display: inline-block;
     position: absolute;
-    top: 300px;
+    bottom: 10px;
     left: 30px;
     font-size: 10px;
     background-color: green;
@@ -119,10 +121,16 @@ h6{
     padding: 2px;
 }
 
+.sostenibility{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
 .fa-solid.fa-heart{
     position: absolute;
     top: 5px;
-    left: 210px;
+    right:0px;
     background-color: white;
     padding: 5px;
 } 
